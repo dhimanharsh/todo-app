@@ -80,12 +80,7 @@
   padding :8 px
   }
 
-  .cross{
-    color:red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .active{
-    color: yellow;
+
+  table tr td{
+    padding: .7em;
   }

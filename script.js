@@ -10,9 +10,10 @@ btn.addEventListener("click", (e) => {
     let elm2 = document.createElement("td");
     elm2.innerText = "Active";
     let elm3 = document.createElement("td");
-   
+
     let elm4 = document.createElement("input");
     elm4.setAttribute("type", "checkbox");
+    elm4.className = 'checkbox'
 
     elm4.addEventListener("change", function () {
       if (elm4.checked) {
@@ -25,11 +26,6 @@ btn.addEventListener("click", (e) => {
         elm2.innerText = "active";
       }
     });
-
-    let label = document.createElement("span");
-    label.innerText = "\\";
-
- 
     document.getElementsByTagName("table")[0].appendChild(elm);
     elm.appendChild(elm1);
     elm.appendChild(elm2);
