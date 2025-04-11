@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main Container */
+  main {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  main h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input and Button Section */
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    text-align: left;
+  }
+  
+  th {
+      background-color:#007bff ;
+      color:white ;
+      padding :8 px;
+  
+  }
+  td{
+  padding :8 px
+  }
+
+  .cross{
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .active{
+    color: yellow;
+  }
