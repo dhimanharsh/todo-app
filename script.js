@@ -1,15 +1,15 @@
 let data = document.getElementById("inputData");
+let arr = [];
 btn.addEventListener("click", (e) => {
   e.preventDefault();
-  let arr = [];
   if (arr.includes(data.value)) {
-    return alert("no this is");
+    return alert("Value already exists!");
   } 
   else if (data.value !== "") {
     arr.push(data.value);
   } 
   else {
-    return alert("please enter some value");
+    return alert("Please enter a value.");
   }
 
   let elm = document.createElement("tr");
